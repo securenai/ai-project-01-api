@@ -1,0 +1,470 @@
+ {
+  "company_info": {
+    "name": "Cloud Interactive",
+    "founded": 2012,
+    "headquarters": "Taipei, Taiwan",
+    "employees_count": 500,
+    "description": "Cloud Interactive is a premier digital transformation company specializing in cloud solutions and innovative software services. With over a decade of experience, we've established ourselves as a trusted technology partner for businesses across Asia and globally.",
+    "key_facts": [
+      "500+ talented professionals",
+      "1000+ successful project deliveries",
+      "99.9% service uptime guarantee",
+      "ISO 27001 & ISO 9001 certified",
+      "AWS Advanced Consulting Partner",
+      "Google Cloud Premier Partner",
+      "Microsoft Gold Partner",
+      "Top Cloud Services Provider in Taiwan 2023",
+      "Best Workplace in Tech 2023",
+      "Innovation Excellence Award 2023"
+    ]
+  },
+  "services": [
+    {
+      "id": 1,
+      "name": "Cloud Infrastructure & Migration",
+      "description": "End-to-end cloud migration and infrastructure management solutions",
+      "features": [
+        "Multi-cloud architecture design",
+        "Cloud migration strategy",
+        "Infrastructure optimization",
+        "24/7 monitoring",
+        "Cost optimization",
+        "Security compliance"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "DevOps & CI/CD",
+      "description": "Streamlined development operations and continuous integration/deployment solutions",
+      "features": [
+        "Automated deployment pipelines",
+        "Container orchestration",
+        "Infrastructure as Code",
+        "Monitoring & logging",
+        "Performance optimization",
+        "DevSecOps integration"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Custom Software Development",
+      "description": "Tailored software solutions for business needs",
+      "features": [
+        "Web applications",
+        "Enterprise software",
+        "API development",
+        "Legacy system modernization",
+        "Microservices architecture",
+        "Scalable solutions"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Mobile App Development",
+      "description": "Cross-platform and native mobile application development",
+      "features": [
+        "iOS development",
+        "Android development",
+        "React Native solutions",
+        "Flutter applications",
+        "Mobile backend services",
+        "App store optimization"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "AI/ML Solutions",
+      "description": "Advanced artificial intelligence and machine learning services",
+      "features": [
+        "Predictive analytics",
+        "Computer vision",
+        "Natural language processing",
+        "Recommendation systems",
+        "AI model training",
+        "MLOps"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Data Analytics",
+      "description": "Comprehensive data analytics and business intelligence solutions",
+      "features": [
+        "Big data processing",
+        "Real-time analytics",
+        "Data visualization",
+        "ETL pipelines",
+        "Business intelligence",
+        "Data warehousing"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "IoT Solutions",
+      "description": "Connected device solutions and IoT platform development",
+      "features": [
+        "IoT platform development",
+        "Sensor integration",
+        "Real-time monitoring",
+        "Edge computing",
+        "IoT security",
+        "Industrial IoT"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Cybersecurity Services",
+      "description": "Comprehensive security solutions and consulting",
+      "features": [
+        "Security assessment",
+        "Penetration testing",
+        "Security monitoring",
+        "Incident response",
+        "Compliance consulting",
+        "Security training"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Blockchain Development",
+      "description": "Enterprise blockchain solutions and smart contract development",
+      "features": [
+        "Smart contracts",
+        "DApp development",
+        "Private blockchains",
+        "NFT platforms",
+        "Cryptocurrency solutions",
+        "Blockchain consulting"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Digital Transformation Consulting",
+      "description": "Strategic digital transformation and technology consulting",
+      "features": [
+        "Digital strategy",
+        "Technology roadmap",
+        "Process optimization",
+        "Change management",
+        "Innovation consulting",
+        "Digital maturity assessment"
+      ]
+    }
+  ],
+  "clients": [
+    {
+      "id": 1,
+      "name": "TaiwanFirst Bank",
+      "industry": "Banking & Finance",
+      "project": "Digital Banking Transformation",
+      "year": 2023,
+      "description": "Complete digital banking platform with mobile apps and cloud infrastructure"
+    },
+    {
+      "id": 2,
+      "name": "AsiaHealth Group",
+      "industry": "Healthcare",
+      "project": "Healthcare Management System",
+      "year": 2023,
+      "description": "Integrated hospital management system with AI diagnostics"
+    },
+    {
+      "id": 3,
+      "name": "TechMart Global",
+      "industry": "E-commerce",
+      "project": "E-commerce Platform Scaling",
+      "year": 2023,
+      "description": "Cloud infrastructure optimization and platform scaling"
+    },
+    {
+      "id": 4,
+      "name": "Smart Manufacturing Co",
+      "industry": "Manufacturing",
+      "project": "IoT Factory Management",
+      "year": 2022,
+      "description": "Smart factory implementation with IoT sensors and real-time monitoring"
+    },
+    {
+      "id": 5,
+      "name": "EduTech Institute",
+      "industry": "Education",
+      "project": "Learning Management System",
+      "year": 2022,
+      "description": "Online learning platform with video streaming capabilities"
+    },
+    {
+      "id": 6,
+      "name": "Taipei Metro",
+      "industry": "Transportation",
+      "project": "Smart Transportation System",
+      "year": 2022,
+      "description": "Real-time tracking and passenger information system"
+    },
+    {
+      "id": 7,
+      "name": "Digital Entertainment Network",
+      "industry": "Entertainment",
+      "project": "Streaming Platform Development",
+      "year": 2023,
+      "description": "Video streaming platform with recommendation engine"
+    },
+    {
+      "id": 8,
+      "name": "SecureFinance Corp",
+      "industry": "Financial Services",
+      "project": "Blockchain Payment System",
+      "year": 2023,
+      "description": "Secure payment processing using blockchain technology"
+    },
+    {
+      "id": 9,
+      "name": "Green Energy Solutions",
+      "industry": "Energy",
+      "project": "Smart Grid Management",
+      "year": 2022,
+      "description": "IoT-based energy management and monitoring system"
+    },
+    {
+      "id": 10,
+      "name": "Global Retail Chain",
+      "industry": "Retail",
+      "project": "Retail Analytics Platform",
+      "year": 2023,
+      "description": "Customer analytics and inventory management system"
+    }
+  ],
+  "careers": [
+    {
+      "id": 1,
+      "title": "Senior Cloud Architect",
+      "department": "Cloud Services",
+      "location": "Taipei",
+      "type": "Full-time",
+      "requirements": [
+        "8+ years in cloud architecture",
+        "AWS/Azure/GCP certification",
+        "Experience with multi-cloud environments",
+        "Strong leadership skills"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Full Stack Developer",
+      "department": "Engineering",
+      "location": "Taipei",
+      "type": "Full-time",
+      "requirements": [
+        "5+ years in web development",
+        "React/Node.js expertise",
+        "Database design experience",
+        "API development skills"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "DevOps Engineer",
+      "department": "Operations",
+      "location": "Taipei",
+      "type": "Full-time",
+      "requirements": [
+        "4+ years DevOps experience",
+        "CI/CD pipeline expertise",
+        "Container orchestration",
+        "Infrastructure as Code"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "AI/ML Engineer",
+      "department": "AI & Data",
+      "location": "Taipei",
+      "type": "Full-time",
+      "requirements": [
+        "Masters in Computer Science",
+        "Deep learning expertise",
+        "Python/TensorFlow/PyTorch",
+        "MLOps experience"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "UX/UI Designer",
+      "department": "Design",
+      "location": "Taipei",
+      "type": "Full-time",
+      "requirements": [
+        "5+ years design experience",
+        "Strong portfolio",
+        "User research skills",
+        "Figma/Sketch expertise"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Product Manager",
+      "department": "Product",
+      "location": "Taipei",
+      "type": "Full-time",
+      "requirements": [
+        "6+ years product management",
+        "Technical background",
+        "Agile methodology",
+        "Strong analytical skills"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Security Engineer",
+      "department": "Security",
+      "location": "Taipei",
+      "type": "Full-time",
+      "requirements": [
+        "CISSP certification",
+        "5+ years security experience",
+        "Penetration testing skills",
+        "Security architecture"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Data Scientist",
+      "department": "AI & Data",
+      "location": "Taipei",
+      "type": "Full-time",
+      "requirements": [
+        "PhD preferred",
+        "Strong statistics background",
+        "Machine learning expertise",
+        "Big data technologies"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Technical Project Manager",
+      "department": "Project Management",
+      "location": "Taipei",
+      "type": "Full-time",
+      "requirements": [
+        "PMP certification",
+        "7+ years IT project management",
+        "Agile certification",
+        "Technical background"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Blockchain Developer",
+      "department": "Engineering",
+      "location": "Taipei",
+      "type": "Full-time",
+      "requirements": [
+        "3+ years blockchain development",
+        "Smart contract development",
+        "Solidity expertise",
+        "Web3 technologies"
+      ]
+    }
+  ],
+  "contact": {
+    "address": {
+      "street": "No. 207, Section 2, Dunhua South Road",
+      "district": "Da'an District",
+      "city": "Taipei",
+      "country": "Taiwan",
+      "postal_code": "106"
+    },
+    "phone": {
+      "main": "+886 2 2735 5000",
+      "support": "+886 2 2735 5001",
+      "sales": "+886 2 2735 5002"
+    },
+    "email": {
+      "general": "info@cloudinteractive.com",
+      "support": "support@cloudinteractive.com",
+      "careers": "careers@cloudinteractive.com"
+    },
+    "working_hours": {
+      "weekdays": "09:00 - 18:00",
+      "saturday": "Closed",
+      "sunday": "Closed",
+      "timezone": "GMT+8"
+    },
+    "social_media": {
+      "linkedin": "linkedin.com/company/cloud-interactive",
+      "twitter": "twitter.com/cloudinteractive",
+      "facebook": "facebook.com/cloudinteractive",
+      "github": "github.com/cloudinteractive"
+    }
+  },
+  "leadership": [
+    {
+      "id": 1,
+      "name": "Dr. Samuel Chen",
+      "position": "Chief Executive Officer",
+      "background": "PhD in Computer Science from MIT, Former VP at AWS",
+      "expertise": ["Cloud Architecture", "Business Strategy", "Digital Transformation"]
+    },
+    {
+      "id": 2,
+      "name": "Emily Wang",
+      "position": "Chief Technology Officer",
+      "background": "MS in Computer Science, Former Google Tech Lead",
+      "expertise": ["System Architecture", "AI/ML", "Innovation Strategy"]
+    },
+    {
+      "id": 3,
+      "name": "David Lin",
+      "position": "Chief Operating Officer",
+      "background": "MBA from INSEAD, Former McKinsey Consultant",
+      "expertise": ["Operations Management", "Strategy", "Process Optimization"]
+    },
+    {
+      "id": 4,
+      "name": "Sophie Chang",
+      "position": "Chief Financial Officer",
+      "background": "CPA, Former Investment Banker at Morgan Stanley",
+      "expertise": ["Financial Planning", "M&A", "Risk Management"]
+    },
+    {
+      "id": 5,
+      "name": "James Wu",
+      "position": "VP of Engineering",
+      "background": "MS in Software Engineering, Former Microsoft Engineer",
+      "expertise": ["Software Architecture", "Team Leadership", "DevOps"]
+    },
+    {
+      "id": 6,
+      "name": "Linda Kao",
+      "position": "VP of Product",
+      "background": "MBA from Stanford, Former Product Lead at Salesforce",
+      "expertise": ["Product Strategy", "UX Design", "Market Analysis"]
+    },
+    {
+      "id": 7,
+      "name": "Robert Huang",
+      "position": "VP of Sales",
+      "background": "15 years in Enterprise Sales, Former Regional Director",
+      "expertise": ["Enterprise Sales", "Partnership Development", "Market Expansion"]
+    },
+    {
+      "id": 8,
+      "name": "Catherine Liu",
+      "position": "VP of Human Resources",
+      "background": "MA in HR Management, SHRM Senior Certified Professional",
+      "expertise": ["Talent Management", "Organizational Development", "Culture Building"]
+    },
+    {
+      "id": 9,
+      "name": "Thomas Yang",
+      "position": "Chief Security Officer",
+      "background": "CISSP, Former Security Architect at IBM",
+      "expertise": ["Cybersecurity", "Risk Management", "Compliance"]
+    },
+    {
+      "id": 10,
+      "name": "Jennifer Tsai",
+      "position": "VP of Customer Success",
+      "background": "10 years in Customer Success Management",
+      "expertise": ["Customer Experience", "Account Management", "Service Delivery"]
+    }
+  ]
+}
