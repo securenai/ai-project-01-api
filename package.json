@@ -1,0 +1,12 @@
+{
+  "name": "ai-project-01-api",
+  "version": "1.0.0",
+  "description": "Fake API for tool call",
+  "main": "server.js",
+  "scripts": {
+    "start": "json-server --watch db.json --port $PORT --host 0.0.0.0"
+  },
+  "dependencies": {
+    "json-server": "^0.17.4"
+  }
+}
