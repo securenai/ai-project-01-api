@@ -1,470 +1,1451 @@
- {
-  "company_info": {
-    "name": "Cloud Interactive",
-    "founded": 2010,
-    "headquarters": "Taipei, Taiwan",
-    "employees_count": 500,
-    "description": "Cloud Interactive is a premier digital transformation company specializing in cloud solutions and innovative software services. With over a decade of experience, we've established ourselves as a trusted technology partner for businesses across Asia and globally.",
-    "key_facts": [
-      "500+ talented professionals",
-      "1000+ successful project deliveries",
-      "99.9% service uptime guarantee",
-      "ISO 27001 & ISO 9001 certified",
-      "AWS Advanced Consulting Partner",
-      "Google Cloud Premier Partner",
-      "Microsoft Gold Partner",
-      "Top Cloud Services Provider in Taiwan 2023",
-      "Best Workplace in Tech 2023",
-      "Innovation Excellence Award 2023"
-    ]
-  },
-  "services": [
+{
+  "properties": [
     {
       "id": 1,
-      "name": "Cloud Infrastructure & Migration",
-      "description": "End-to-end cloud migration and infrastructure management solutions",
+      "type": "House",
+      "title": "Modern Family Home with Garden",
+      "address": {
+        "street": "2847 Pine Valley Road",
+        "city": "Austin",
+        "state": "Texas",
+        "zip": "78701",
+        "coordinates": {
+          "lat": "30.2672",
+          "lng": "-97.7431"
+        }
+      },
+      "price": {
+        "monthly": 2800,
+        "deposit": 3000,
+        "application_fee": 50,
+        "utilities_estimate": {
+          "electric": 150,
+          "water": 50,
+          "gas": 30,
+          "internet": 70
+        }
+      },
+      "details": {
+        "bedrooms": 3,
+        "bathrooms": 2.5,
+        "square_feet": 2200,
+        "year_built": 2015,
+        "parking_spaces": 2,
+        "pets_allowed": true,
+        "available_from": "2024-03-01",
+        "lease_terms": ["12 months", "24 months"]
+      },
       "features": [
-        "Multi-cloud architecture design",
-        "Cloud migration strategy",
-        "Infrastructure optimization",
-        "24/7 monitoring",
-        "Cost optimization",
-        "Security compliance"
-      ]
+        "Central AC/Heating",
+        "Hardwood Floors",
+        "Stainless Steel Appliances",
+        "Dishwasher",
+        "In-unit Laundry",
+        "Fenced Backyard",
+        "Smart Home Features",
+        "Garage"
+      ],
+      "amenities": {
+        "outdoor": [
+          "Private Garden",
+          "Patio",
+          "BBQ Area"
+        ],
+        "security": [
+          "Security System",
+          "Smart Locks",
+          "Outdoor Lighting"
+        ]
+      },
+      "nearby": {
+        "schools": ["Austin High School", "West Elementary"],
+        "transportation": ["Bus Stop (0.2 miles)", "Metro Station (1 mile)"],
+        "shopping": ["Whole Foods (0.5 miles)", "Shopping Mall (1.2 miles)"],
+        "restaurants": ["Multiple within walking distance"],
+        "walk_score": 85
+      },
+      "images": [
+        "https://example.com/house1-main.jpg",
+        "https://example.com/house1-kitchen.jpg",
+        "https://example.com/house1-living.jpg"
+      ],
+      "reviews": [
+        {
+          "id": 1,
+          "user": "Sarah M.",
+          "date": "2024-01-15",
+          "rating": 4.5,
+          "comment": "Beautiful home with great natural lighting. The smart home features are a nice touch."
+        },
+        {
+          "id": 2,
+          "user": "Michael R.",
+          "date": "2024-01-10",
+          "rating": 5,
+          "comment": "Spacious and modern. The garage is a huge plus, and the backyard is perfect for entertaining."
+        },
+        {
+          "id": 3,
+          "user": "Emily L.",
+          "date": "2023-12-28",
+          "rating": 4,
+          "comment": "Great location and amenities. The only downside is some traffic noise during rush hour."
+        },
+        {
+          "id": 4,
+          "user": "David K.",
+          "date": "2023-12-15",
+          "rating": 5,
+          "comment": "Excellent property management and maintenance. Very responsive to requests."
+        },
+        {
+          "id": 5,
+          "user": "Jessica W.",
+          "date": "2023-12-01",
+          "rating": 4.5,
+          "comment": "Love the smart home features and the spacious backyard. Perfect for our family."
+        },
+        {
+          "id": 6,
+          "user": "Robert T.",
+          "date": "2023-11-20",
+          "rating": 4,
+          "comment": "Good value for the location. Kitchen is well-equipped and modern."
+        },
+        {
+          "id": 7,
+          "user": "Amanda B.",
+          "date": "2023-11-10",
+          "rating": 5,
+          "comment": "The garden is beautiful and well-maintained. House is in great condition."
+        },
+        {
+          "id": 8,
+          "user": "Chris M.",
+          "date": "2023-10-30",
+          "rating": 4.5,
+          "comment": "Excellent neighborhood and very safe. Close to everything we need."
+        },
+        {
+          "id": 9,
+          "user": "Lauren P.",
+          "date": "2023-10-15",
+          "rating": 4,
+          "comment": "Nice layout and good storage space. The garage is a big plus."
+        },
+        {
+          "id": 10,
+          "user": "Thomas H.",
+          "date": "2023-10-01",
+          "rating": 5,
+          "comment": "Couldn't be happier with this rental. Everything works perfectly and it's very comfortable."
+        }
+      ],
+      "average_rating": 4.55
     },
     {
       "id": 2,
-      "name": "DevOps & CI/CD",
-      "description": "Streamlined development operations and continuous integration/deployment solutions",
+      "type": "Apartment",
+      "title": "Luxury High-Rise Downtown Apartment",
+      "address": {
+        "street": "789 Market Street, Unit 1205",
+        "city": "San Francisco",
+        "state": "California",
+        "zip": "94103",
+        "coordinates": {
+          "lat": "37.7749",
+          "lng": "-122.4194"
+        }
+      },
+      "price": {
+        "monthly": 3500,
+        "deposit": 4000,
+        "application_fee": 75,
+        "utilities_estimate": {
+          "electric": 100,
+          "water": 40,
+          "gas": 25,
+          "internet": 70
+        }
+      },
+      "details": {
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "square_feet": 1100,
+        "year_built": 2018,
+        "parking_spaces": 1,
+        "pets_allowed": true,
+        "available_from": "2024-02-15",
+        "lease_terms": ["12 months"]
+      },
       "features": [
-        "Automated deployment pipelines",
-        "Container orchestration",
-        "Infrastructure as Code",
-        "Monitoring & logging",
-        "Performance optimization",
-        "DevSecOps integration"
-      ]
+        "Floor-to-Ceiling Windows",
+        "Quartz Countertops",
+        "High-End Appliances",
+        "Walk-in Closet",
+        "In-unit Laundry",
+        "Central Air",
+        "Balcony",
+        "Underground Parking"
+      ],
+      "amenities": {
+        "building": [
+          "24/7 Concierge",
+          "Fitness Center",
+          "Rooftop Lounge",
+          "Package Room",
+          "Bike Storage"
+        ],
+        "security": [
+          "Controlled Access",
+          "Security Cameras",
+          "Doorman"
+        ]
+      },
+      "nearby": {
+        "schools": ["Downtown Elementary", "City High School"],
+        "transportation": ["BART Station (0.1 miles)", "Bus Lines (multiple)"],
+        "shopping": ["Union Square (0.5 miles)", "Westfield Mall (0.3 miles)"],
+        "restaurants": ["Numerous high-end restaurants within blocks"],
+        "walk_score": 98
+      },
+      "images": [
+        "https://example.com/apt2-main.jpg",
+        "https://example.com/apt2-living.jpg",
+        "https://example.com/apt2-view.jpg"
+      ],
+      "reviews": [
+        {
+          "id": 1,
+          "user": "Jennifer L.",
+          "date": "2024-01-20",
+          "rating": 5,
+          "comment": "Amazing views and perfect location. The amenities are top-notch."
+        },
+        {
+          "id": 2,
+          "user": "Mark S.",
+          "date": "2024-01-05",
+          "rating": 4.5,
+          "comment": "Great building with excellent security. The gym is well-equipped."
+        },
+        {
+          "id": 3,
+          "user": "Rachel K.",
+          "date": "2023-12-20",
+          "rating": 4,
+          "comment": "Beautiful apartment but a bit noisy from street traffic."
+        },
+        {
+          "id": 4,
+          "user": "Daniel P.",
+          "date": "2023-12-10",
+          "rating": 5,
+          "comment": "The views are incredible and the concierge service is excellent."
+        },
+        {
+          "id": 5,
+          "user": "Sophie M.",
+          "date": "2023-11-28",
+          "rating": 4.5,
+          "comment": "Love the modern finishes and the rooftop lounge is amazing."
+        },
+        {
+          "id": 6,
+          "user": "James W.",
+          "date": "2023-11-15",
+          "rating": 5,
+          "comment": "Perfect downtown location. Everything is within walking distance."
+        },
+        {
+          "id": 7,
+          "user": "Lisa R.",
+          "date": "2023-11-01",
+          "rating": 4,
+          "comment": "Great amenities but parking can be challenging for guests."
+        },
+        {
+          "id": 8,
+          "user": "Kevin T.",
+          "date": "2023-10-20",
+          "rating": 5,
+          "comment": "The floor-to-ceiling windows and city views are breathtaking."
+        },
+        {
+          "id": 9,
+          "user": "Maria C.",
+          "date": "2023-10-05",
+          "rating": 4.5,
+          "comment": "Excellent building management and maintenance team."
+        },
+        {
+          "id": 10,
+          "user": "Brian L.",
+          "date": "2023-09-25",
+          "rating": 5,
+          "comment": "Worth every penny for the location and luxury amenities."
+        }
+      ],
+      "average_rating": 4.65
     },
     {
       "id": 3,
-      "name": "Custom Software Development",
-      "description": "Tailored software solutions for business needs",
+      "type": "Condo",
+      "title": "Waterfront Condo with Marina Views",
+      "address": {
+        "street": "123 Harbor Drive, Unit 502",
+        "city": "Miami",
+        "state": "Florida",
+        "zip": "33132",
+        "coordinates": {
+          "lat": "25.7617",
+          "lng": "-80.1918"
+        }
+      },
+      "price": {
+        "monthly": 4200,
+        "deposit": 4200,
+        "application_fee": 100,
+        "utilities_estimate": {
+          "electric": 120,
+          "water": 45,
+          "gas": 0,
+          "internet": 75
+        }
+      },
+      "details": {
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "square_feet": 1300,
+        "year_built": 2020,
+        "parking_spaces": 2,
+        "pets_allowed": true,
+        "available_from": "2024-02-01",
+        "lease_terms": ["12 months", "24 months"]
+      },
       "features": [
-        "Web applications",
-        "Enterprise software",
-        "API development",
-        "Legacy system modernization",
-        "Microservices architecture",
-        "Scalable solutions"
-      ]
+        "Private Balcony",
+        "Impact Windows",
+        "Italian Kitchen Cabinets",
+        "Wine Refrigerator",
+        "Smart Home System",
+        "Marble Floors",
+        "Custom Closets",
+        "Electric Car Charging"
+      ],
+      "amenities": {
+        "building": [
+          "Infinity Pool",
+          "Private Marina",
+          "Spa",
+          "Tennis Court",
+          "Wine Room"
+        ],
+        "security": [
+          "24/7 Security",
+          "Valet Parking",
+          "Biometric Access"
+        ]
+      },
+      "nearby": {
+        "schools": ["Miami International School", "Brickell Academy"],
+        "transportation": ["Metromover (0.2 miles)", "Water Taxi"],
+        "shopping": ["Brickell City Centre (0.5 miles)", "Mary Brickell Village"],
+        "restaurants": ["Multiple waterfront dining options"],
+        "walk_score": 90
+      },
+      "images": [
+        "https://example.com/condo3-main.jpg",
+        "https://example.com/condo3-view.jpg",
+        "https://example.com/condo3-pool.jpg"
+      ],
+      "reviews": [
+        {
+          "id": 1,
+          "user": "Alex M.",
+          "date": "2024-01-18",
+          "rating": 5,
+          "comment": "Stunning views and luxurious amenities. The infinity pool is incredible."
+        },
+        {
+          "id": 2,
+          "user": "Sofia R.",
+          "date": "2024-01-02",
+          "rating": 4.5,
+          "comment": "Beautiful property with great attention to detail. Love the marina access."
+        },
+        {
+          "id": 3,
+          "user": "John D.",
+          "date": "2023-12-15",
+          "rating": 5,
+          "comment": "Top-notch security and valet service. The wine room is a unique touch."
+        },
+        {
+          "id": 4,
+          "user": "Isabella K.",
+          "date": "2023-12-01",
+          "rating": 4.5,
+          "comment": "Excellent location with breathtaking views. Modern and well-maintained."
+        },
+        {
+          "id": 5,
+          "user": "Marcus P.",
+          "date": "2023-11-20",
+          "rating": 5,
+          "comment": "The amenities are unmatched. Perfect for entertaining guests."
+        },
+        {
+          "id": 6,
+          "user": "Victoria L.",
+          "date": "2023-11-05",
+          "rating": 4,
+          "comment": "Great building but occasional issues with elevator wait times."
+        },
+        {
+          "id": 7,
+          "user": "Richard B.",
+          "date": "2023-10-22",
+          "rating": 5,
+          "comment": "Worth every penny. The smart home features are very convenient."
+        },
+        {
+          "id": 8,
+          "user": "Emma S.",
+          "date": "2023-10-10",
+          "rating": 4.5,
+          "comment": "Beautiful property with excellent management team."
+        },
+        {
+          "id": 9,
+          "user": "George W.",
+          "date": "2023-09-28",
+          "rating": 5,
+          "comment": "The private marina access is amazing for boat owners."
+        },
+        {
+          "id": 10,
+          "user": "Olivia T.",
+          "date": "2023-09-15",
+          "rating": 4.5,
+          "comment": "Luxurious living with great attention to security and privacy."
+        }
+      ],
+      "average_rating": 4.7
     },
     {
       "id": 4,
-      "name": "Mobile App Development",
-      "description": "Cross-platform and native mobile application development",
+      "type": "House",
+      "title": "Craftsman Style Family Home",
+      "address": {
+        "street": "456 Maple Avenue",
+        "city": "Portland",
+        "state": "Oregon",
+        "zip": "97201",
+        "coordinates": {
+          "lat": "45.5155",
+          "lng": "-122.6789"
+        }
+      },
+      "price": {
+        "monthly": 3200,
+        "deposit": 3200,
+        "application_fee": 45,
+        "utilities_estimate": {
+          "electric": 130,
+          "water": 60,
+          "gas": 40,
+          "internet": 65
+        }
+      },
+      "details": {
+        "bedrooms": 4,
+        "bathrooms": 2.5,
+        "square_feet": 2400,
+        "year_built": 1925,
+        "parking_spaces": 2,
+        "pets_allowed": true,
+        "available_from": "2024-03-15",
+        "lease_terms": ["12 months"]
+      },
       "features": [
-        "iOS development",
-        "Android development",
-        "React Native solutions",
-        "Flutter applications",
-        "Mobile backend services",
-        "App store optimization"
-      ]
+        "Original Hardwood Floors",
+        "Built-in Bookshelves",
+        "Fireplace",
+        "Updated Kitchen",
+        "Mudroom",
+        "Finished Basement",
+        "Garden Space",
+        "Covered Porch"
+      ],
+      "amenities": {
+        "outdoor": [
+          "Vegetable Garden",
+          "Fire Pit",
+          "Storage Shed",
+          "Covered Porch"
+        ],
+        "security": [
+          "Security System",
+          "Motion Lights",
+          "Ring Doorbell"
+        ]
+      },
+      "nearby": {
+        "schools": ["Lincoln High School", "Chapman Elementary"],
+        "transportation": ["MAX Station (0.4 miles)", "Bus Lines"],
+        "shopping": ["Farmers Market", "NW 23rd Shopping"],
+        "restaurants": ["Diverse dining options within walking distance"],
+        "walk_score": 88
+      },
+      "images": [
+        "https://example.com/house4-main.jpg",
+        "https://example.com/house4-garden.jpg",
+        "https://example.com/house4-interior.jpg"
+      ],
+      "reviews": [
+        {
+          "id": 1,
+          "user": "Peter K.",
+          "date": "2024-01-20",
+          "rating": 5,
+          "comment": "Beautiful craftsman details and modern updates. Perfect family home."
+        },
+        {
+          "id": 2,
+          "user": "Amy L.",
+          "date": "2024-01-08",
+          "rating": 4.5,
+          "comment": "Charming house with great character. Love the garden space."
+        },
+        {
+          "id": 3,
+          "user": "Mike R.",
+          "date": "2023-12-22",
+          "rating": 4,
+          "comment": "Spacious and well-maintained. Some creaky floors but adds to charm."
+        },
+        {
+          "id": 4,
+          "user": "Sarah B.",
+          "date": "2023-12-10",
+          "rating": 5,
+          "comment": "Amazing location and beautiful architectural details."
+        },
+        {
+          "id": 5,
+          "user": "David M.",
+          "date": "2023-11-28",
+          "rating": 4.5,
+          "comment": "Great family home with lots of storage and character."
+        },
+        {
+          "id": 6,
+          "user": "Laura W.",
+          "date": "2023-11-15",
+          "rating": 5,
+          "comment": "The garden is amazing and the neighborhood is perfect."
+        },
+        {
+          "id": 7,
+          "user": "Tom H.",
+          "date": "2023-11-01",
+          "rating": 4,
+          "comment": "Lovely home but basement can be a bit damp in winter."
+        },
+        {
+          "id": 8,
+          "user": "Karen P.",
+          "date": "2023-10-20",
+          "rating": 5,
+          "comment": "Perfect blend of historic charm and modern conveniences."
+        },
+        {
+          "id": 9,
+          "user": "Steve L.",
+          "date": "2023-10-05",
+          "rating": 4.5,
+          "comment": "Great layout for family living. Love the built-ins."
+        },
+        {
+          "id": 10,
+          "user": "Michelle T.",
+          "date": "2023-09-22",
+          "rating": 5,
+          "comment": "Wonderful home with lots of natural light and character."
+        }
+      ],
+      "average_rating": 4.65
     },
     {
       "id": 5,
-      "name": "AI/ML Solutions",
-      "description": "Advanced artificial intelligence and machine learning services",
+      "type": "Apartment",
+      "title": "Modern Loft in Historic Building",
+      "address": {
+        "street": "567 Washington Street, Unit 4B",
+        "city": "Boston",
+        "state": "Massachusetts",
+        "zip": "02108",
+        "coordinates": {
+          "lat": "42.3601",
+          "lng": "-71.0589"
+        }
+      },
+      "price": {
+        "monthly": 3800,
+        "deposit": 3800,
+        "application_fee": 60,
+        "utilities_estimate": {
+          "electric": 90,
+          "water": 35,
+          "gas": 45,
+          "internet": 70
+        }
+      },
+      "details": {
+        "bedrooms": 1,
+        "bathrooms": 1.5,
+        "square_feet": 1000,
+        "year_built": 1890,
+        "year_renovated": 2019,
+        "parking_spaces": 1,
+        "pets_allowed": true,
+        "available_from": "2024-02-01",
+        "lease_terms": ["12 months"]
+      },
       "features": [
-        "Predictive analytics",
-        "Computer vision",
-        "Natural language processing",
-        "Recommendation systems",
-        "AI model training",
-        "MLOps"
-      ]
+        "Exposed Brick Walls",
+        "14-ft Ceilings",
+        "Industrial Windows",
+        "Custom Kitchen",
+        "Built-in Storage",
+        "Home Office Nook",
+        "Washer/Dryer",
+        "Smart Thermostat"
+      ],
+      "amenities": {
+        "building": [
+          "Elevator",
+          "Roof Deck",
+          "Bike Storage",
+          "Package Room"
+        ],
+        "security": [
+          "Video Intercom",
+          "Key Fob Access",
+          "Security Cameras"
+        ]
+      },
+      "nearby": {
+        "schools": ["Eliot K-8 School", "Boston Latin School"],
+        "transportation": ["Park St. Station (0.2 miles)", "Multiple Bus Lines"],
+        "shopping": ["Downtown Crossing", "Faneuil Hall"],
+        "restaurants": ["Historic North End nearby"],
+        "walk_score": 98
+      },
+      "images": [
+        "https://example.com/apt5-main.jpg",
+        "https://example.com/apt5-living.jpg",
+        "https://example.com/apt5-kitchen.jpg"
+      ],
+      "reviews": [
+        {
+          "id": 1,
+          "user": "Nathan R.",
+          "date": "2024-01-15",
+          "rating": 5,
+          "comment": "Stunning loft with perfect blend of historic and modern elements."
+        },
+        {
+          "id": 2,
+          "user": "Claire M.",
+          "date": "2024-01-01",
+          "rating": 4.5,
+          "comment": "Beautiful space with great character. Love the high ceilings."
+        },
+        {
+          "id": 3,
+          "user": "Andrew S.",
+          "date": "2023-12-18",
+          "rating": 4,
+          "comment": "Excellent location but can be noisy on weekends."
+        },
+        {
+          "id": 4,
+          "user": "Rebecca L.",
+          "date": "2023-12-05",
+          "rating": 5,
+          "comment": "Perfect city apartment with amazing architectural details."
+        },
+        {
+          "id": 5,
+          "user": "Justin K.",
+          "date": "2023-11-22",
+          "rating": 4.5,
+          "comment": "Great renovation while keeping historic charm."
+        },
+        {
+          "id": 6,
+          "user": "Emma P.",
+          "date": "2023-11-10",
+          "rating": 5,
+          "comment": "The roof deck is amazing and the location can't be beat."
+        },
+        {
+          "id": 7,
+          "user": "Ryan M.",
+          "date": "2023-10-28",
+          "rating": 4,
+          "comment": "Beautiful space but heating costs can be high in winter."
+        },
+        {
+          "id": 8,
+          "user": "Hannah B.",
+          "date": "2023-10-15",
+          "rating": 5,
+          "comment": "Love the exposed brick and industrial windows."
+        },
+        {
+          "id": 9,
+          "user": "Greg T.",
+          "date": "2023-10-01",
+          "rating": 4.5,
+          "comment": "Perfect layout for entertaining. Great building community."
+        },
+        {
+          "id": 10,
+          "user": "Melissa W.",
+          "date": "2023-09-18",
+          "rating": 5,
+          "comment": "Incredible attention to detail in the renovation."
+        }
+      ],
+      "average_rating": 4.65
     },
     {
       "id": 6,
-      "name": "Data Analytics",
-      "description": "Comprehensive data analytics and business intelligence solutions",
+      "type": "Condo",
+      "title": "Mountain View Luxury Condo",
+      "address": {
+        "street": "789 Summit Drive, Unit 301",
+        "city": "Denver",
+        "state": "Colorado",
+        "zip": "80202",
+        "coordinates": {
+          "lat": "39.7392",
+          "lng": "-104.9903"
+        }
+      },
+      "price": {
+        "monthly": 3600,
+        "deposit": 3600,
+        "application_fee": 65,
+        "utilities_estimate": {
+          "electric": 110,
+          "water": 45,
+          "gas": 35,
+          "internet": 75
+        }
+      },
+      "details": {
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "square_feet": 1400,
+        "year_built": 2017,
+        "parking_spaces": 2,
+        "pets_allowed": true,
+        "available_from": "2024-03-01",
+        "lease_terms": ["12 months", "18 months"]
+      },
       "features": [
-        "Big data processing",
-        "Real-time analytics",
-        "Data visualization",
-        "ETL pipelines",
-        "Business intelligence",
-        "Data warehousing"
-      ]
+        "Mountain Views",
+        "Gas Fireplace",
+        "Gourmet Kitchen",
+        "Private Deck",
+        "Walk-in Closets",
+        "Air Conditioning",
+        "In-unit Laundry",
+        "Storage Unit"
+      ],
+      "amenities": {
+        "building": [
+          "Heated Pool",
+          "Hot Tub",
+          "Fitness Center",
+          "Ski Storage",
+          "Club Room"
+        ],
+        "security": [
+          "24/7 Security",
+          "Secured Parking",
+          "Video Surveillance"
+        ]
+      },
+      "nearby": {
+        "schools": ["Denver School of the Arts", "East High School"],
+        "transportation": ["Light Rail Station (0.3 miles)", "Bus Stop"],
+        "shopping": ["16th Street Mall", "Cherry Creek Shopping"],
+        "restaurants": ["Multiple dining options nearby"],
+        "walk_score": 92
+      },
+      "images": [
+        "https://example.com/condo6-main.jpg",
+        "https://example.com/condo6-view.jpg",
+        "https://example.com/condo6-kitchen.jpg"
+      ],
+      "reviews": [
+        {
+          "id": 1,
+          "user": "Brandon K.",
+          "date": "2024-01-19",
+          "rating": 5,
+          "comment": "Incredible mountain views and modern amenities. Perfect location."
+        },
+        {
+          "id": 2,
+          "user": "Rachel S.",
+          "date": "2024-01-05",
+          "rating": 4.5,
+          "comment": "Great building with excellent amenities. Love the hot tub."
+        },
+        {
+          "id": 3,
+          "user": "Tyler M.",
+          "date": "2023-12-22",
+          "rating": 5,
+          "comment": "The ski storage is super convenient and views are amazing."
+        },
+        {
+          "id": 4,
+          "user": "Ashley P.",
+          "date": "2023-12-08",
+          "rating": 4,
+          "comment": "Beautiful property but pool can get crowded on weekends."
+        },
+        {
+          "id": 5,
+          "user": "Chris L.",
+          "date": "2023-11-25",
+          "rating": 5,
+          "comment": "Perfect blend of luxury and comfort. Great management."
+        },
+        {
+          "id": 6,
+          "user": "Jessica R.",
+          "date": "2023-11-12",
+          "rating": 4.5,
+          "comment": "Stunning views and well-maintained common areas."
+        },
+        {
+          "id": 7,
+          "user": "Matt B.",
+          "date": "2023-10-30",
+          "rating": 5,
+          "comment": "The fireplace is perfect for cold winter nights."
+        },
+        {
+          "id": 8,
+          "user": "Sarah W.",
+          "date": "2023-10-17",
+          "rating": 4,
+          "comment": "Great location but guest parking can be challenging."
+        },
+        {
+          "id": 9,
+          "user": "Daniel H.",
+          "date": "2023-10-04",
+          "rating": 5,
+          "comment": "Love the modern finishes and mountain views."
+        },
+        {
+          "id": 10,
+          "user": "Lauren M.",
+          "date": "2023-09-21",
+          "rating": 4.5,
+          "comment": "Excellent security and friendly staff."
+        }
+      ],
+      "average_rating": 4.65
     },
     {
       "id": 7,
-      "name": "IoT Solutions",
-      "description": "Connected device solutions and IoT platform development",
+      "type": "House",
+      "title": "Southern Charm Colonial",
+      "address": {
+        "street": "234 Magnolia Lane",
+        "city": "Charleston",
+        "state": "South Carolina",
+        "zip": "29401",
+        "coordinates": {
+          "lat": "32.7765",
+          "lng": "-79.9311"
+        }
+      },
+      "price": {
+        "monthly": 3900,
+        "deposit": 3900,
+        "application_fee": 55,
+        "utilities_estimate": {
+          "electric": 160,
+          "water": 55,
+          "gas": 35,
+          "internet": 70
+        }
+      },
+      "details": {
+        "bedrooms": 4,
+        "bathrooms": 3,
+        "square_feet": 2800,
+        "year_built": 1895,
+        "year_renovated": 2021,
+        "parking_spaces": 2,
+        "pets_allowed": true,
+        "available_from": "2024-02-15",
+        "lease_terms": ["12 months"]
+      },
       "features": [
-        "IoT platform development",
-        "Sensor integration",
-        "Real-time monitoring",
-        "Edge computing",
-        "IoT security",
-        "Industrial IoT"
-      ]
+        "Wrap-around Porch",
+        "Original Hardwood Floors",
+        "Crown Molding",
+        "Updated Kitchen",
+        "Clawfoot Tubs",
+        "Garden",
+        "Wine Cellar",
+        "Carriage House"
+      ],
+      "amenities": {
+        "outdoor": [
+          "Swimming Pool",
+          "Formal Gardens",
+          "Outdoor Kitchen",
+          "Courtyard"
+        ],
+        "security": [
+          "Security System",
+          "Gated Entry",
+          "Landscape Lighting"
+        ]
+      },
+      "nearby": {
+        "schools": ["Ashley Hall", "Charleston Day School"],
+        "transportation": ["DASH Trolley", "Water Taxi"],
+        "shopping": ["King Street Shopping", "Charleston City Market"],
+        "restaurants": ["Historic District Dining"],
+        "walk_score": 89
+      },
+      "images": [
+        "https://example.com/house7-main.jpg",
+        "https://example.com/house7-garden.jpg",
+        "https://example.com/house7-interior.jpg"
+      ],
+      "reviews": [
+        {
+          "id": 1,
+          "user": "Elizabeth B.",
+          "date": "2024-01-17",
+          "rating": 5,
+          "comment": "Absolutely stunning historic home with modern conveniences."
+        },
+        {
+          "id": 2,
+          "user": "William P.",
+          "date": "2024-01-03",
+          "rating": 4.5,
+          "comment": "Beautiful property with amazing architectural details."
+        },
+        {
+          "id": 3,
+          "user": "Margaret S.",
+          "date": "2023-12-20",
+          "rating": 5,
+          "comment": "The gardens are spectacular and the location is perfect."
+        },
+        {
+          "id": 4,
+          "user": "Robert K.",
+          "date": "2023-12-07",
+          "rating": 4,
+          "comment": "Lovely historic home but some rooms can be drafty."
+        },
+        {
+          "id": 5,
+          "user": "Catherine M.",
+          "date": "2023-11-24",
+          "rating": 5,
+          "comment": "Perfect blend of historic charm and modern updates."
+        },
+        {
+          "id": 6,
+          "user": "James L.",
+          "date": "2023-11-11",
+          "rating": 4.5,
+          "comment": "The wrap-around porch is amazing for entertaining."
+        },
+        {
+          "id": 7,
+          "user": "Patricia H.",
+          "date": "2023-10-29",
+          "rating": 5,
+          "comment": "Exceptional property with great attention to detail."
+        },
+        {
+          "id": 8,
+          "user": "George R.",
+          "date": "2023-10-16",
+          "rating": 4.5,
+          "comment": "Beautiful home in a perfect location."
+        },
+        {
+          "id": 9,
+          "user": "Anne W.",
+          "date": "2023-10-03",
+          "rating": 5,
+          "comment": "The wine cellar and carriage house are unique features."
+        },
+        {
+          "id": 10,
+          "user": "Thomas B.",
+          "date": "2023-09-20",
+          "rating": 4.5,
+          "comment": "Stunning property with great historical significance."
+        }
+      ],
+      "average_rating": 4.7
     },
     {
       "id": 8,
-      "name": "Cybersecurity Services",
-      "description": "Comprehensive security solutions and consulting",
+      "type": "Apartment",
+      "title": "Urban Artist Loft",
+      "address": {
+        "street": "456 Gallery Way, Unit 3F",
+        "city": "Chicago",
+        "state": "Illinois",
+        "zip": "60607",
+        "coordinates": {
+          "lat": "41.8781",
+          "lng": "-87.6298"
+        }
+      },
+      "price": {
+        "monthly": 2900,
+        "deposit": 2900,
+        "application_fee": 50,
+        "utilities_estimate": {
+          "electric": 85,
+          "water": 40,
+          "gas": 45,
+          "internet": 65
+        }
+      },
+      "details": {
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "square_feet": 1200,
+        "year_built": 1920,
+        "year_renovated": 2018,
+        "parking_spaces": 1,
+        "pets_allowed": true,
+        "available_from": "2024-02-01",
+        "lease_terms": ["12 months"]
+      },
       "features": [
-        "Security assessment",
-        "Penetration testing",
-        "Security monitoring",
-        "Incident response",
-        "Compliance consulting",
-        "Security training"
-      ]
-    },
-    {
+        "20-ft Ceilings",
+        "Polished Concrete Floors",
+        "Artist Studio Space",
+        "Industrial Kitchen",
+        "Oversized Windows",
+        "Track Lighting",
+        "Freight Elevator Access",
+        "Loading Dock"
+      ],
+      "amenities": {
+        "building": [
+          "Art Gallery",
+          "Shared Workshop",
+          "Rooftop Garden",
+          "Creative Community"
+        ],
+        "security": [
+          "24/7 Security",
+          "Keycard Access",
+          "Camera System"
+        ]
+      },
+      "nearby": {
+        "schools": ["Art Institute of Chicago", "Columbia College"],
+        "transportation": ["Blue Line Station (0.2 miles)", "Bus Routes"],
+        "shopping": ["West Loop Shops", "Fulton Market"],
+        "restaurants": ["Restaurant Row", "Trendy Cafes"],
+        "walk_score": 95
+      },
+      "images": [
+        "https://example.com/apt8-main.jpg",
+        "https://example.com/apt8-studio.jpg",
+        "https://example.com/apt8-living.jpg"
+      ],
+      "reviews": [
+        {
+          "id": 1,
+          "user": "Maya R.",
+          "date": "2024-01-16",
+          "rating": 5,
+          "comment": "Perfect space for artists. The light is amazing."
+        },
+        {
+          "id": 2,
+          "user": "Julian K.",
+          "date": "2024-01-02",
+          "rating": 4.5,
+          "comment": "Great creative community and excellent location."
+        },
+        {
+          "id": 3,
+          "user": "Nina S.",
+          "date": "2023-12-19",
+          "rating": 5,
+          "comment": "The studio space is perfect for my work."
+        },
+        {
+          "id": 4,
+          "user": "Leo M.",
+          "date": "2023-12-06",
+          "rating": 4,
+          "comment": "Love the industrial feel but heating costs can be high."
+        },
+        {
+          "id": 5,
+          "user": "Sophia P.",
+          "date": "2023-11-23",
+          "rating": 5,
+          "comment": "Amazing community of artists and great amenities."
+        },
+        {
+          "id": 6,
+          "user": "Diego L.",
+          "date": "2023-11-10",
+          "rating": 4.5,
+          "comment": "The shared workshop is a huge plus."
+        },
+        {
+          "id": 7,
+          "user": "Isabella F.",
+          "date": "2023-10-28",
+          "rating": 5,
+          "comment": "Perfect blend of living and working space."
+        },
+        {
+          "id": 8,
+          "user": "Adrian B.",
+          "date": "2023-10-15",
+          "rating": 4,
+          "comment": "Great space but loading dock can be busy."
+        },
+        {
+          "id": 9,
+          "user": "Carmen T.",
+          "date": "2023-10-02",
+          "rating": 5,
+          "comment": "The gallery space is perfect for shows."
+        },
+        {
+          "id": 10,
+          "user": "Rafael H.",
+          "date": "2023-09-19",
+          "rating": 4.5,
+          "comment": "Incredible creative atmosphere and community."
+        }
+      ],
+      "average_rating": 4.65
+    }
+        {
       "id": 9,
-      "name": "Blockchain Development",
-      "description": "Enterprise blockchain solutions and smart contract development",
+      "type": "Condo",
+      "title": "Beachfront Paradise Condo",
+      "address": {
+        "street": "1234 Ocean Drive, Unit 15B",
+        "city": "San Diego",
+        "state": "California",
+        "zip": "92109",
+        "coordinates": {
+          "lat": "32.8328",
+          "lng": "-117.1278"
+        }
+      },
+      "price": {
+        "monthly": 4500,
+        "deposit": 4500,
+        "application_fee": 75,
+        "utilities_estimate": {
+          "electric": 95,
+          "water": 45,
+          "gas": 25,
+          "internet": 70
+        }
+      },
+      "details": {
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "square_feet": 1500,
+        "year_built": 2019,
+        "parking_spaces": 2,
+        "pets_allowed": true,
+        "available_from": "2024-03-01",
+        "lease_terms": ["12 months", "24 months"]
+      },
       "features": [
-        "Smart contracts",
-        "DApp development",
-        "Private blockchains",
-        "NFT platforms",
-        "Cryptocurrency solutions",
-        "Blockchain consulting"
-      ]
+        "Ocean Views",
+        "Private Balcony",
+        "Floor-to-Ceiling Windows",
+        "Gourmet Kitchen",
+        "Smart Home System",
+        "Walk-in Closets",
+        "Surround Sound",
+        "Electric Car Charging"
+      ],
+      "amenities": {
+        "building": [
+          "Infinity Pool",
+          "Private Beach Access",
+          "Fitness Center",
+          "Yoga Studio",
+          "Beach Equipment Storage"
+        ],
+        "security": [
+          "24/7 Security",
+          "Gated Community",
+          "Video Surveillance"
+        ]
+      },
+      "nearby": {
+        "schools": ["Pacific Beach Middle", "Mission Bay High"],
+        "transportation": ["Bus Lines", "Bike Paths"],
+        "shopping": ["Pacific Beach Shopping", "Mission Bay Center"],
+        "restaurants": ["Beachfront Dining", "Local Cafes"],
+        "walk_score": 92
+      },
+      "images": [
+        "https://example.com/condo9-main.jpg",
+        "https://example.com/condo9-view.jpg",
+        "https://example.com/condo9-pool.jpg"
+      ],
+      "reviews": [
+        {
+          "id": 1,
+          "user": "Samantha L.",
+          "date": "2024-01-18",
+          "rating": 5,
+          "comment": "Paradise found! The ocean views are breathtaking."
+        },
+        {
+          "id": 2,
+          "user": "Jack M.",
+          "date": "2024-01-04",
+          "rating": 4.5,
+          "comment": "Amazing location and fantastic amenities."
+        },
+        {
+          "id": 3,
+          "user": "Emma R.",
+          "date": "2023-12-21",
+          "rating": 5,
+          "comment": "The private beach access is incredible."
+        },
+        {
+          "id": 4,
+          "user": "Noah P.",
+          "date": "2023-12-08",
+          "rating": 4.5,
+          "comment": "Beautiful property but can get busy during tourist season."
+        },
+        {
+          "id": 5,
+          "user": "Olivia K.",
+          "date": "2023-11-25",
+          "rating": 5,
+          "comment": "Perfect beachfront location with great sunsets."
+        },
+        {
+          "id": 6,
+          "user": "Lucas T.",
+          "date": "2023-11-12",
+          "rating": 4.5,
+          "comment": "The infinity pool is amazing. Great community."
+        },
+        {
+          "id": 7,
+          "user": "Ava S.",
+          "date": "2023-10-30",
+          "rating": 5,
+          "comment": "Love the beach equipment storage and yoga studio."
+        },
+        {
+          "id": 8,
+          "user": "Ethan B.",
+          "date": "2023-10-17",
+          "rating": 4,
+          "comment": "Excellent amenities but parking can be tight."
+        },
+        {
+          "id": 9,
+          "user": "Isabella M.",
+          "date": "2023-10-04",
+          "rating": 5,
+          "comment": "The smart home features are very convenient."
+        },
+        {
+          "id": 10,
+          "user": "Mason W.",
+          "date": "2023-09-21",
+          "rating": 4.5,
+          "comment": "Great security and friendly staff."
+        }
+      ],
+      "average_rating": 4.7
     },
     {
       "id": 10,
-      "name": "Digital Transformation Consulting",
-      "description": "Strategic digital transformation and technology consulting",
+      "type": "House",
+      "title": "Desert Modern Oasis",
+      "address": {
+        "street": "789 Saguaro Road",
+        "city": "Scottsdale",
+        "state": "Arizona",
+        "zip": "85250",
+        "coordinates": {
+          "lat": "33.4942",
+          "lng": "-111.9261"
+        }
+      },
+      "price": {
+        "monthly": 4200,
+        "deposit": 4200,
+        "application_fee": 65,
+        "utilities_estimate": {
+          "electric": 200,
+          "water": 80,
+          "gas": 30,
+          "internet": 75
+        }
+      },
+      "details": {
+        "bedrooms": 3,
+        "bathrooms": 2.5,
+        "square_feet": 2600,
+        "year_built": 2021,
+        "parking_spaces": 2,
+        "pets_allowed": true,
+        "available_from": "2024-02-15",
+        "lease_terms": ["12 months"]
+      },
       "features": [
-        "Digital strategy",
-        "Technology roadmap",
-        "Process optimization",
-        "Change management",
-        "Innovation consulting",
-        "Digital maturity assessment"
-      ]
-    }
-  ],
-  "clients": [
-    {
-      "id": 1,
-      "name": "TaiwanFirst Bank",
-      "industry": "Banking & Finance",
-      "project": "Digital Banking Transformation",
-      "year": 2023,
-      "description": "Complete digital banking platform with mobile apps and cloud infrastructure"
-    },
-    {
-      "id": 2,
-      "name": "AsiaHealth Group",
-      "industry": "Healthcare",
-      "project": "Healthcare Management System",
-      "year": 2023,
-      "description": "Integrated hospital management system with AI diagnostics"
-    },
-    {
-      "id": 3,
-      "name": "TechMart Global",
-      "industry": "E-commerce",
-      "project": "E-commerce Platform Scaling",
-      "year": 2023,
-      "description": "Cloud infrastructure optimization and platform scaling"
-    },
-    {
-      "id": 4,
-      "name": "Smart Manufacturing Co",
-      "industry": "Manufacturing",
-      "project": "IoT Factory Management",
-      "year": 2022,
-      "description": "Smart factory implementation with IoT sensors and real-time monitoring"
-    },
-    {
-      "id": 5,
-      "name": "EduTech Institute",
-      "industry": "Education",
-      "project": "Learning Management System",
-      "year": 2022,
-      "description": "Online learning platform with video streaming capabilities"
-    },
-    {
-      "id": 6,
-      "name": "Taipei Metro",
-      "industry": "Transportation",
-      "project": "Smart Transportation System",
-      "year": 2022,
-      "description": "Real-time tracking and passenger information system"
-    },
-    {
-      "id": 7,
-      "name": "Digital Entertainment Network",
-      "industry": "Entertainment",
-      "project": "Streaming Platform Development",
-      "year": 2023,
-      "description": "Video streaming platform with recommendation engine"
-    },
-    {
-      "id": 8,
-      "name": "SecureFinance Corp",
-      "industry": "Financial Services",
-      "project": "Blockchain Payment System",
-      "year": 2023,
-      "description": "Secure payment processing using blockchain technology"
-    },
-    {
-      "id": 9,
-      "name": "Green Energy Solutions",
-      "industry": "Energy",
-      "project": "Smart Grid Management",
-      "year": 2022,
-      "description": "IoT-based energy management and monitoring system"
-    },
-    {
-      "id": 10,
-      "name": "Global Retail Chain",
-      "industry": "Retail",
-      "project": "Retail Analytics Platform",
-      "year": 2023,
-      "description": "Customer analytics and inventory management system"
-    }
-  ],
-  "careers": [
-    {
-      "id": 1,
-      "title": "Senior Cloud Architect",
-      "department": "Cloud Services",
-      "location": "Taipei",
-      "type": "Full-time",
-      "requirements": [
-        "8+ years in cloud architecture",
-        "AWS/Azure/GCP certification",
-        "Experience with multi-cloud environments",
-        "Strong leadership skills"
-      ]
-    },
-    {
-      "id": 2,
-      "title": "Full Stack Developer",
-      "department": "Engineering",
-      "location": "Taipei",
-      "type": "Full-time",
-      "requirements": [
-        "5+ years in web development",
-        "React/Node.js expertise",
-        "Database design experience",
-        "API development skills"
-      ]
-    },
-    {
-      "id": 3,
-      "title": "DevOps Engineer",
-      "department": "Operations",
-      "location": "Taipei",
-      "type": "Full-time",
-      "requirements": [
-        "4+ years DevOps experience",
-        "CI/CD pipeline expertise",
-        "Container orchestration",
-        "Infrastructure as Code"
-      ]
-    },
-    {
-      "id": 4,
-      "title": "AI/ML Engineer",
-      "department": "AI & Data",
-      "location": "Taipei",
-      "type": "Full-time",
-      "requirements": [
-        "Masters in Computer Science",
-        "Deep learning expertise",
-        "Python/TensorFlow/PyTorch",
-        "MLOps experience"
-      ]
-    },
-    {
-      "id": 5,
-      "title": "UX/UI Designer",
-      "department": "Design",
-      "location": "Taipei",
-      "type": "Full-time",
-      "requirements": [
-        "5+ years design experience",
-        "Strong portfolio",
-        "User research skills",
-        "Figma/Sketch expertise"
-      ]
-    },
-    {
-      "id": 6,
-      "title": "Product Manager",
-      "department": "Product",
-      "location": "Taipei",
-      "type": "Full-time",
-      "requirements": [
-        "6+ years product management",
-        "Technical background",
-        "Agile methodology",
-        "Strong analytical skills"
-      ]
-    },
-    {
-      "id": 7,
-      "title": "Security Engineer",
-      "department": "Security",
-      "location": "Taipei",
-      "type": "Full-time",
-      "requirements": [
-        "CISSP certification",
-        "5+ years security experience",
-        "Penetration testing skills",
-        "Security architecture"
-      ]
-    },
-    {
-      "id": 8,
-      "title": "Data Scientist",
-      "department": "AI & Data",
-      "location": "Taipei",
-      "type": "Full-time",
-      "requirements": [
-        "PhD preferred",
-        "Strong statistics background",
-        "Machine learning expertise",
-        "Big data technologies"
-      ]
-    },
-    {
-      "id": 9,
-      "title": "Technical Project Manager",
-      "department": "Project Management",
-      "location": "Taipei",
-      "type": "Full-time",
-      "requirements": [
-        "PMP certification",
-        "7+ years IT project management",
-        "Agile certification",
-        "Technical background"
-      ]
-    },
-    {
-      "id": 10,
-      "title": "Blockchain Developer",
-      "department": "Engineering",
-      "location": "Taipei",
-      "type": "Full-time",
-      "requirements": [
-        "3+ years blockchain development",
-        "Smart contract development",
-        "Solidity expertise",
-        "Web3 technologies"
-      ]
-    }
-  ],
-  "contact": {
-    "address": {
-      "street": "No. 207, Section 2, Dunhua South Road",
-      "district": "Da'an District",
-      "city": "Taipei",
-      "country": "Taiwan",
-      "postal_code": "106"
-    },
-    "phone": {
-      "main": "+886 2 2735 5000",
-      "support": "+886 2 2735 5001",
-      "sales": "+886 2 2735 5002"
-    },
-    "email": {
-      "general": "info@cloudinteractive.com",
-      "support": "support@cloudinteractive.com",
-      "careers": "careers@cloudinteractive.com"
-    },
-    "working_hours": {
-      "weekdays": "09:00 - 18:00",
-      "saturday": "Closed",
-      "sunday": "Closed",
-      "timezone": "GMT+8"
-    },
-    "social_media": {
-      "linkedin": "linkedin.com/company/cloud-interactive",
-      "twitter": "twitter.com/cloudinteractive",
-      "facebook": "facebook.com/cloudinteractive",
-      "github": "github.com/cloudinteractive"
-    }
-  },
-  "leadership": [
-    {
-      "id": 1,
-      "name": "Dr. Mark Chen",
-      "position": "Chief Executive Officer",
-      "background": "PhD in Computer Science from MIT, Former VP at AWS",
-      "expertise": ["Cloud Architecture", "Business Strategy", "Digital Transformation"]
-    },
-    {
-      "id": 2,
-      "name": "Emily Wang",
-      "position": "Chief Technology Officer",
-      "background": "MS in Computer Science, Former Google Tech Lead",
-      "expertise": ["System Architecture", "AI/ML", "Innovation Strategy"]
-    },
-    {
-      "id": 3,
-      "name": "David Lin",
-      "position": "Chief Operating Officer",
-      "background": "MBA from INSEAD, Former McKinsey Consultant",
-      "expertise": ["Operations Management", "Strategy", "Process Optimization"]
-    },
-    {
-      "id": 4,
-      "name": "Sophie Chang",
-      "position": "Chief Financial Officer",
-      "background": "CPA, Former Investment Banker at Morgan Stanley",
-      "expertise": ["Financial Planning", "M&A", "Risk Management"]
-    },
-    {
-      "id": 5,
-      "name": "James Wu",
-      "position": "VP of Engineering",
-      "background": "MS in Software Engineering, Former Microsoft Engineer",
-      "expertise": ["Software Architecture", "Team Leadership", "DevOps"]
-    },
-    {
-      "id": 6,
-      "name": "Linda Kao",
-      "position": "VP of Product",
-      "background": "MBA from Stanford, Former Product Lead at Salesforce",
-      "expertise": ["Product Strategy", "UX Design", "Market Analysis"]
-    },
-    {
-      "id": 7,
-      "name": "Robert Huang",
-      "position": "VP of Sales",
-      "background": "15 years in Enterprise Sales, Former Regional Director",
-      "expertise": ["Enterprise Sales", "Partnership Development", "Market Expansion"]
-    },
-    {
-      "id": 8,
-      "name": "Catherine Liu",
-      "position": "VP of Human Resources",
-      "background": "MA in HR Management, SHRM Senior Certified Professional",
-      "expertise": ["Talent Management", "Organizational Development", "Culture Building"]
-    },
-    {
-      "id": 9,
-      "name": "Thomas Yang",
-      "position": "Chief Security Officer",
-      "background": "CISSP, Former Security Architect at IBM",
-      "expertise": ["Cybersecurity", "Risk Management", "Compliance"]
-    },
-    {
-      "id": 10,
-      "name": "Jennifer Tsai",
-      "position": "VP of Customer Success",
-      "background": "10 years in Customer Success Management",
-      "expertise": ["Customer Experience", "Account Management", "Service Delivery"]
+        "Desert Landscaping",
+        "Pool",
+        "Outdoor Kitchen",
+        "Smart Home Technology",
+        "Solar Panels",
+        "Home Theater",
+        "Wine Room",
+        "Three-Car Garage"
+      ],
+      "amenities": {
+        "outdoor": [
+          "Heated Pool",
+          "Spa",
+          "Fire Pit",
+          "Covered Patio",
+          "Putting Green"
+        ],
+        "security": [
+          "Gated Community",
+          "Security System",
+          "Cameras"
+        ]
+      },
+      "nearby": {
+        "schools": ["Desert Mountain High", "Copper Ridge School"],
+        "transportation": ["Local Transit", "Bike Trails"],
+        "shopping": ["Kierland Commons", "Scottsdale Quarter"],
+        "restaurants": ["High-end Dining", "Local Eateries"],
+        "walk_score": 75
+      },
+      "images": [
+        "https://example.com/house10-main.jpg",
+        "https://example.com/house10-pool.jpg",
+        "https://example.com/house10-interior.jpg"
+      ],
+      "reviews": [
+        {
+          "id": 1,
+          "user": "Ryan K.",
+          "date": "2024-01-19",
+          "rating": 5,
+          "comment": "Stunning modern design with amazing desert views."
+        },
+        {
+          "id": 2,
+          "user": "Ashley M.",
+          "date": "2024-01-05",
+          "rating": 4.5,
+          "comment": "The pool and outdoor kitchen are perfect for entertaining."
+        },
+        {
+          "id": 3,
+          "user": "Brandon L.",
+          "date": "2023-12-22",
+          "rating": 5,
+          "comment": "Love the solar panels and energy efficiency."
+        },
+        {
+          "id": 4,
+          "user": "Taylor S.",
+          "date": "2023-12-09",
+          "rating": 4.5,
+          "comment": "Beautiful home but desert landscaping needs attention."
+        },
+        {
+          "id": 5,
+          "user": "Jordan P.",
+          "date": "2023-11-26",
+          "rating": 5,
+          "comment": "The home theater is amazing for movie nights."
+        },
+        {
+          "id": 6,
+          "user": "Morgan R.",
+          "date": "2023-11-13",
+          "rating": 4.5,
+          "comment": "Great location and beautiful architecture."
+        },
+        {
+          "id": 7,
+          "user": "Alex T.",
+          "date": "2023-10-31",
+          "rating": 5,
+          "comment": "Perfect blend of indoor and outdoor living."
+        },
+        {
+          "id": 8,
+          "user": "Casey B.",
+          "date": "2023-10-18",
+          "rating": 4,
+          "comment": "Lovely home but pool maintenance can be costly."
+        },
+        {
+          "id": 9,
+          "user": "Drew M.",
+          "date": "2023-10-05",
+          "rating": 5,
+          "comment": "The wine room is a great touch."
+        },
+        {
+          "id": 10,
+          "user": "Parker W.",
+          "date": "2023-09-22",
+          "rating": 4.5,
+          "comment": "Excellent security and peaceful neighborhood."
+        }
+      ],
+      "average_rating": 4.7
     }
   ]
 }
